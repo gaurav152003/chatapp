@@ -6,7 +6,7 @@
 ![image alt](https://github.com/gaurav152003/chatapp/blob/8a08c4641f19b12d439d8df08ee44e9bbfd7b4ab/Screenshot%202025-05-20%20004218.png)
 ![image alt](https://github.com/gaurav152003/chatapp/blob/6b7b5cda2db1b777635a85b92eddacaa6af7a2c4/Screenshot%202025-05-20%20004305.png)
 ![image alt](https://github.com/gaurav152003/chatapp/blob/eecc72d2cf8b94732cec29e44c7b3473956ba7f7/Screenshot%202025-05-20%20004420.png)
-![image alt]()
+![image alt](https://github.com/gaurav152003/chatapp/blob/dbb31cd4ae197de155c8789ce761fd42343d86eb/Screenshot%202025-05-20%20005354.png)
 ![image alt]()
 ![image alt]()
 ![image alt]()
