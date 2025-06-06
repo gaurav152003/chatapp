@@ -1,5 +1,5 @@
 ![image alt](https://github.com/gaurav152003/chatapp/blob/e53cef53f3ab7d9e4eb4497d9edbbcead24b0f7e/Screenshot%202025-05-20%20001823.png)
-![image alt]()
+![image alt](https://github.com/gaurav152003/chatapp/blob/240a2cf34dc1f96cf8cafd1da6b179f0d5a11e8e/Screenshot%202025-05-20%20001834.png)
 ![image alt]()
 ![image alt]()
 ![image alt]()
