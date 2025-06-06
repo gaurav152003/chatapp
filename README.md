@@ -2,7 +2,7 @@
 ![image alt](https://github.com/gaurav152003/chatapp/blob/240a2cf34dc1f96cf8cafd1da6b179f0d5a11e8e/Screenshot%202025-05-20%20001834.png)
 ![image alt](https://github.com/gaurav152003/chatapp/blob/983f6bc5552d902606186e2db47a267e09ddf077/Screenshot%202025-05-20%20002347.png)
 ![image alt](https://github.com/gaurav152003/chatapp/blob/3b2d2f8d72b2c7d1de46323775b361c2009453aa/Screenshot%202025-05-20%20002423.png)
-![image alt]()
+![image alt](https://github.com/gaurav152003/chatapp/blob/cea0ae8dd7bbc5d58c36176e84ac6bb8045c67d9/Screenshot%202025-05-20%20003949.png)
 ![image alt]()
 ![image alt]()
 ![image alt]()
