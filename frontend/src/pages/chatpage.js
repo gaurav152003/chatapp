@@ -9,20 +9,11 @@ const Chatpage = () => {
   const { user } = ChatState();
 
   useEffect(() => {
-    if (user) {
-      const refreshed = sessionStorage.getItem("pageRefreshed");
-      if (!refreshed) {
-        sessionStorage.setItem("pageRefreshed", "true");
-        setTimeout(() => {
-          window.location.reload();
-        }, 100);
-      }
+    if (user && !sessionStorage.getItem("firstLoginRefreshed")) {
+      sessionStorage.setItem("firstLoginRefreshed", "true");
+      window.location.reload(); // refresh only once
     }
   }, [user]);
-
-  useEffect(() => {
-    return () => sessionStorage.removeItem("pageRefreshed");
-  }, []);
 
   return (
     <div style={{ width: "100%" }}>
