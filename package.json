@@ -4,7 +4,7 @@
   "main": " server.js",
   "scripts": {
     "start": "node index.js",
-  "postinstall": "cd ../frontend && npm install --legacy-peer-deps && npm run build"
+"postinstall": "npm --prefix frontend install --legacy-peer-deps && npm --prefix frontend run build"
   },
   "author": "gaurav yadav",
   "license": "ISC",
