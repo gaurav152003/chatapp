@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "server":"nodemon backend/server.js",
-    "build": "npm install  && npm install "
+    "build": "npm install  && npm install ",
+    "postinstall" : "cd frontend && npm install && npm run build"
   },
   "author": "gaurav yadav",
   "license": "ISC",
