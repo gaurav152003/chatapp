@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": " server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
   "postinstall": "rm -rf frontend/node_modules frontend/package-lock.json && npm --prefix frontend install --legacy-peer-deps && npm --prefix frontend run build"
 
   },
