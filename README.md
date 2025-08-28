@@ -41,3 +41,14 @@ The app allows seamless one-on-one and group chats, with features like notificat
 ![image alt](https://github.com/gaurav152003/chatapp/blob/993c2b165e0f380f92a89be41308aaaae2b170ce/Screenshot%202025-05-20%20004628.png)
 ![image alt](https://github.com/gaurav152003/chatapp/blob/dbb31cd4ae197de155c8789ce761fd42343d86eb/Screenshot%202025-05-20%20005354.png)
 
+---
+## 🧩 Challenges Faced
+- Setting up **Socket.io** for real-time messaging and handling multiple connections  
+- Managing **state synchronization** across multiple users and chat rooms  
+- Implementing a smooth **typing indicator** and notifications without delays  
+- Designing a **clean UI** with Chakra UI that adapts across devices  
+- Handling **guest login** securely without requiring full authentication  
+- Structuring backend APIs for **user search, groups, and messages** efficiently  
+
+---
+
