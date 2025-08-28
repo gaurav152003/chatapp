@@ -1,3 +1,32 @@
+# 💬 Web Talk – Real-time Chat Application
+
+**Web Talk** is a real-time chat application inspired by modern messaging platforms.  
+It is built using the **MERN (MongoDB, Express.js, React, Node.js) stack** with **Socket.io** for instant communication and **Chakra UI** for a clean, responsive interface.  
+The app allows seamless one-on-one and group chats, with features like notifications, typing indicators, and guest login.  
+
+---
+
+## ✨ Features
+- 🔑 **Authentication** – Login/Signup with user credentials & Guest Login option  
+- 💬 **One-to-One Chat** – Private messaging between two users  
+- 👥 **Group Chat** – Create groups, rename them, and add new members  
+- ✍️ **Typing Indicator** – Real-time typing status in chats  
+- 🔔 **Notifications** – Get notified when someone messages you  
+- 🔍 **User Search** – Find users quickly to start new conversations  
+- 🙍 **Profile Management** – View and update user profile  
+- 🎨 **Modern UI** – Responsive and elegant design using Chakra UI  
+- ⚡ **Real-time Communication** – Powered by Socket.io  
+
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React.js, Chakra UI  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Real-time Communication:** Socket.io  
+- **Authentication:** JWT (JSON Web Tokens)  
+
+---
 
 ## 📸 Screenshots
 
