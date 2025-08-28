@@ -44,7 +44,6 @@ The app allows seamless one-on-one and group chats, with features like notificat
 ---
 ## 🧩 Challenges Faced
 - Setting up **Socket.io** for real-time messaging and handling multiple connections  
-- Managing **state synchronization** across multiple users and chat rooms  
 - Implementing a smooth **typing indicator** and notifications without delays  
 - Designing a **clean UI** with Chakra UI that adapts across devices  
 - Handling **guest login** securely without requiring full authentication  
