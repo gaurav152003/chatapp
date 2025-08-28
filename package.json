@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": " server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "server":"nodemon backend/server.js",
-    "build": "npm install  && npm install ",
-    "postinstall" : "cd frontend && npm install && npm run build"
+    "start": "node index.js",
+  "postinstall": "cd ../frontend && npm install --legacy-peer-deps && npm run build"
   },
   "author": "gaurav yadav",
   "license": "ISC",
