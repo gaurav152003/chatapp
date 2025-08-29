@@ -26,11 +26,10 @@ import { useToast } from "@chakra-ui/toast";
 import ChatLoading from "../ChatLoading";
 import { Spinner } from "@chakra-ui/spinner";
 import ProfileModal from "./ProfileModal";
-import NotificationBadge from "react-notification-badge";
-import { Effect } from "react-notification-badge";
 import { getSender } from "../../config/ChatLogics";
 import UserListItem from "../userAvatar/UserListItem";
 import { ChatState } from "../../context/ChatProvider";
+import { Badge } from "@chakra-ui/react"; // ✅ New badge from Chakra UI
 
 function SideDrawer() {
   const [search, setSearch] = useState("");
@@ -157,11 +156,21 @@ function SideDrawer() {
       </Text>
       <Box display="flex" alignItems="center">
         <Menu>
-          <MenuButton p={1}>
-            <NotificationBadge
-              count={notification.length}
-              effect={Effect.SCALE}
-            />
+          <MenuButton p={1} position="relative">
+            {/* ✅ Replaced NotificationBadge with Chakra Badge */}
+            {notification.length > 0 && (
+              <Badge
+                colorScheme="red"
+                borderRadius="full"
+                px={2}
+                position="absolute"
+                top="-1"
+                right="-1"
+                fontSize="0.8em"
+              >
+                {notification.length}
+              </Badge>
+            )}
             <BellIcon fontSize="2xl" m={1} />
           </MenuButton>
           <MenuList pl={2}>
