@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": " server.js",
   "scripts": {
-  "start": "node server.js",
-  "server": "nodemon server.js",
-  "client": "npm start --prefix frontend",
-  "build": "npm install --prefix frontend && npm run build --prefix frontend"
+ "start": "node server.js",
+  "postinstall": "npm install --prefix ../frontend && npm run build --prefix ../frontend"
     
   },
   "author": "gaurav yadav",
